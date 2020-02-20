@@ -1,0 +1,27 @@
+COLUMN 	DESCRIPTION
+1. Id: A unique id for the delivery
+2. Drone type:  A categorical attribute for the type of the drone. We know that
+each type of drone has three phases of flight ( namely takeOff ,
+onRoute , and Landing ). The drone may have different speeds at
+different phases. takeOff and Landing phases only take five
+minutes.
+3. Post type: A categorical attribute for the type of delivery (0:normal,
+1:express)
+4: Package weight: The weight of the package
+5: Origin region A categorical attribute representing the region for the origin of the
+delivery
+6. Destination region: A categorical attribute representing the region for the destination
+of the delivery
+7. Origin latitude: Latitude of the origin
+Origin longitude Longitude of the origin
+8. Destination latitude: Latitude of the destination
+9. Destination longitude: Longitude of the destination
+10. Distance: Distance of the journey
+11. Departure date: Date of the departure
+12. Departure time: Time of the departure. We know that the delivery company has a
+specific rule to define morning (6:00:00 - 11:59:59), afternoon
+(12:00:00 - 20:59:59), and night (21:00 - 5:59:59)
+13. Travel time: Travel time (i.e., duration) of the journey
+14. Delivery time: The time of the delivery
+15: Delivery price Delivery fare. We know that the fare has a linear relation with
+some of the attributes of the dataset.
